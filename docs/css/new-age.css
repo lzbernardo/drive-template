@@ -333,7 +333,7 @@ section.cta .overlay {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 section.contact {
@@ -388,10 +388,12 @@ section.contact ul.list-social li.social-google-plus a:hover {
 }
 
 footer {
-  padding: 25px 0;
+  padding: 30px 0;
   text-align: center;
-  color: rgba(255, 255, 255, 0.3);
-  background-color: #222222;
+  font-size: 8px;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: #ea2670;
+  background: linear-gradient(to right,#ea2670,#ef7854);
 }
 
 footer p {
@@ -436,8 +438,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
   color: white;
-  border-color: #4d3bff;
-  background-color: #4d3bff;
+  border-color: #5722bd;
+  background-color: #5722bd;
 }
 
 .btn-outline2 {
