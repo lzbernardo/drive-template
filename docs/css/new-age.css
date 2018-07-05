@@ -9,7 +9,7 @@ body {
 }
 
 a {
-  color: #fdcc52;
+  color: #ec4665;
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
@@ -70,7 +70,7 @@ section h3 {
 }
 
 #mainNav .navbar-brand {
-  color: #fdcc52;
+  color: #ec4665;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
@@ -94,7 +94,7 @@ section h3 {
 }
 
 #mainNav .navbar-nav > li > a.active {
-  color: #fdcc52 !important;
+  color: #ec4665 !important;
   background-color: transparent;
 }
 
@@ -109,7 +109,7 @@ section h3 {
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-  color: #fdcc52;
+  color: #ec4665;
 }
 
 @media (min-width: 992px) {
@@ -139,7 +139,7 @@ section h3 {
     color: #222222;
   }
   #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
-    color: #fdcc52;
+    color: #ec4665;
   }
   #mainNav.navbar-shrink .navbar-nav > li > a,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus {
@@ -147,7 +147,7 @@ section h3 {
   }
   #mainNav.navbar-shrink .navbar-nav > li > a:hover,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
-    color: #fdcc52;
+    color: #ec4665;
   }
 }
 
@@ -201,9 +201,13 @@ header.masthead .device-container .screen img {
   }
 }
 
+.feature-item a{
+  color: #ea286f !important;
+}
+
 section.download {
   position: relative;
-  padding: 150px 0;
+  padding: 100px 0;
 }
 
 section.download h2 {
@@ -237,8 +241,16 @@ section.download .badges .badge-link img {
   }
 }
 
+.badges p{
+  color: #555;
+}
+
+.badges p span{
+  color: #ec4665;
+}
+
 section.features .section-heading {
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 
 section.features .section-heading h2 {
@@ -267,7 +279,7 @@ section.features .device-container {
 
 section.features .feature-item {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   text-align: center;
 }
 
@@ -287,7 +299,7 @@ section.features .feature-item i {
 
 section.cta {
   position: relative;
-  padding: 250px 0;
+  padding: 160px 0;
   background-image: url("../img/bg-cta.jpg");
   background-position: center;
   -webkit-background-size: cover;
@@ -401,13 +413,14 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .bg-primary {
-  background: #f4f4f4 !important;
-  /* background: -webkit-linear-gradient(#fdcc52, #fdc539); */
-  /* background: linear-gradient(#fdcc52, #fdc539); */
+  background: #fdfdfd !important;
+  background: #fdfdfd url("../icons/memphis2.png") repeat !important;
+  /* background: -webkit-linear-gradient(#ec4665, #fdc539); */
+  /* background: linear-gradient(#ec4665, #fdc539); */
 }
 
 .text-primary {
-  color: #fdcc52;
+  color: #ec4665;
 }
 
 .no-gutter > [class*='col-'] {
@@ -427,6 +440,19 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   background-color: #4d3bff;
 }
 
+.btn-outline2 {
+  background-color: rgba(255,255,255,0.5);
+  color: #ea286f;
+  border: 1px solid;
+  border-color: #ea286f;
+}
+
+.btn-outline2:hover, .btn-outline2:focus, .btn-outline2:active, .btn-outline2.active {
+  color: white;
+  border-color: #ea286f;
+  background-color: #ea286f;
+}
+
 .btn {
   border-radius: 300px;
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
@@ -437,6 +463,11 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px;
+}
+
+.nav-item{
+  padding-right: .7em;
+  padding-left: .7em;
 }
 
 .navbar-light .logo-white {
