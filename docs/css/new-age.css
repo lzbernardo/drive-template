@@ -436,7 +436,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   padding: 15px 45px;
 }
 
-.navbar-light .logo-colors {
+.navbar-light .logo-white {
   visibility: visible;
 }
 
@@ -444,7 +444,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   visibility: hidden;
 }
 
-.navbar-shrink .logo-colors {
+.navbar-shrink .logo-white {
   visibility: hidden;
   display: none;
 }
