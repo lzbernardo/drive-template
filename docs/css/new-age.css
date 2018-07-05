@@ -446,9 +446,9 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .navbar-shrink .logo-colors {
   visibility: hidden;
+  display: none;
 }
 
 .navbar-shrink .logo-colors {
   visibility: visible;
-  display: none;
 }
