@@ -435,3 +435,19 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   font-size: 11px;
   padding: 15px 45px;
 }
+
+.navbar-light .logo-colors {
+  visibility: visible;
+}
+
+.navbar-light .logo-colors {
+  visibility: hidden;
+}
+
+.navbar-shrink .logo-colors {
+  visibility: hidden;
+}
+
+.navbar-shrink .logo-colors {
+  visibility: visible;
+}
